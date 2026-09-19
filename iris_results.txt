@@ -1,0 +1,27 @@
+CODEALPHA INTERNSHIP - TASK 1
+IRIS FLOWER CLASSIFICATION
+==================================================
+
+Model: Logistic Regression
+Training Samples: 120
+Testing Samples: 30
+Accuracy: 93.33%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.90      0.90      0.90        10
+   virginica       0.90      0.90      0.90        10
+
+    accuracy                           0.93        30
+   macro avg       0.93      0.93      0.93        30
+weighted avg       0.93      0.93      0.93        30
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  1  9]]
+
+Sample Prediction:
+Predicted Species: setosa
